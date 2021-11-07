@@ -226,7 +226,7 @@ AVTO_QATILMA = sb(os.environ.get("AVTO_QATILMA", "True"))
 
 # Patternler
 PATTERNS = os.environ.get("PATTERNS", ".;!,")
-WHITELIST = get('https://raw.githubusercontent.com/TheOksigen/neon_userbot/main/whitelist.json').json()
+WHITELIST = get('https://raw.githubusercontent.com/TheOksigen/2/main/whitelist.json').json()
 
 # CloudMail.ru ve MEGA.nz 
 if not os.path.exists('bin'):
@@ -470,8 +470,6 @@ Hesabınızı bot'a çevirə bilərsiz və bunları işlədə bilərsiz. Unutmay
 SON_GORULME = 0
 COUNT_MSG = 0
 USERS = {}
-# live ucun
-#NEONID = uid
 BRAIN_CHECKER = []
 COUNT_PM = {}
 LASTMSG = {}
