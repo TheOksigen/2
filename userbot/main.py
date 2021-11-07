@@ -151,7 +151,7 @@ def extractCommands(file):
 try:
     bot.start()
     idim = bot.get_me().id
-    neonbl = requests.get('https://raw.githubusercontent.com/TheOksigen/neon_userbot/main/neonblacklist.json').json()
+    neonbl = requests.get('https://raw.githubusercontent.com/TheOksigen/2/main/neonblacklist.json').json()
     if idim in neonbl:
         bot.disconnect()
 
